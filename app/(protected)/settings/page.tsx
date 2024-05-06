@@ -1,5 +1,5 @@
 import React from "react";
-import { auth, signOut } from "../../../auth";
+import { auth, signOut } from "@/auth";
 
 const SettingPage = async () => {
   const session = await auth();
